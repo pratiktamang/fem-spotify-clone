@@ -31,3 +31,12 @@ export const validateRoute = (handler) => {
 		return
 	}
 }
+
+
+export const validateToken = token => {
+	const user = jwt.verify(token, 'hello') // TODO : add token as env variable	
+	return user
+
+
+
+}
