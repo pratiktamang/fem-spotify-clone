@@ -38,6 +38,12 @@ const AuthForm = ({ mode }) => {
 						}}>
 							{mode}
 						</Button>
+						<p>
+							<br/>
+							username: test@example.com <br/>
+							password: password
+
+						</p>
 					</form>
 				</Box>
 			</Flex>  
