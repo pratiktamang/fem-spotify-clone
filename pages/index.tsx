@@ -25,7 +25,7 @@ const Home = ({artists}) => {
           {artists.map(artist => (
             <Box paddingX="10px" width="20%">
               <Box bg="gray.900" borderRadius="4px" padding="15px" width="100%">{artist.name}</Box>
-              <Image src="https://placedog.net/300/300?random" borderRadius="100%" marginTop="20px"></Image>
+              <Image src="https://place.dog/300/200?random" borderRadius="100%" marginTop="20px"></Image>
               <Box marginTop="20px">
                 <Text fontSize="Large">{artist.name}</Text>
                 <Text fontSize="x-small">Artist</Text>
